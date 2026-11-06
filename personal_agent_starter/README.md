@@ -6,6 +6,16 @@ This repository currently contains an early FastAPI prototype with a browser das
 
 ## Current status
 
+### Browser screens now included on the development branch
+- Home dashboard with a natural-language idea box and starter prompts.
+- Create screen with format, duration, tone, language, platform, and on-camera preference fields.
+- My Projects list saved in the current browser using local storage.
+- Social Accounts screen showing Instagram, Facebook Pages, and YouTube as not connected.
+- Calendar preview and an Approvals screen that reads the local approvals endpoint.
+- Navigation between these screens without leaving the browser app.
+
+These are prototype screens. Browser-local projects are not cloud-synced. Social OAuth, actual scheduling, publishing, media generation, and production approval actions are not implemented.
+
 ### Works without a paid AI API
 - Responsive P1 Creator dashboard in the browser.
 - Demo assistant that returns a sample short-video content outline.
